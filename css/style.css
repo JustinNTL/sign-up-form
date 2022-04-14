@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  
+}
+
+.rightBody-form-action {
+  display: flex;
+  flex-flow: column;
+}
+
+.bForm > label, input {
+  appearance: none;
+  -webkit-appearance: none;
+}
