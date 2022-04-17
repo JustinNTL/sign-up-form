@@ -19,6 +19,7 @@ body {
 .left-image-background {
  width: inherit;
  position: relative;
+ height: 100vh;
 }
 
 .left-logo {
@@ -56,6 +57,26 @@ body {
 .rightBody-form-action {
   display: flex;
   flex-flow: column;
+  width: 70vw;
+}
+
+.header-quote, .footer-action {
+  background-color: #f4f6ff;
+  height: 35vh;
+}
+
+.body-form {
+  background-color: #FFFFFF;
+  box-shadow: rgba(0, 0, 0, .45) 0px 25px 20px -20px;
+  height: 30vh;
+  position: relative;
+}
+
+.bForm {
+  display: grid;
+  grid-template-columns: repeat(2, 16rem);
+  grid-template-rows: repeat(3, 2rem);
+  gap: 20px;
 }
 
 .bForm > label, input {
