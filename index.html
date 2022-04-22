@@ -18,45 +18,52 @@
         <p class="logo-caption">Coffee</p>
       </div>
       <div class="img-background-credit">
-        Photo by <a class= credits-lnk href="">Patrick Langwallner</a> on <a class= credits-lnk href="">Unsplash</a>
+        Photo by <a class= credits-lnk href="https://unsplash.com/@patresinger" target="_blank" rel="noopener noreferrer">Patrick Langwallner</a>
+        on <a class= credits-lnk href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a>
       </div>
     </div>
     <div class="rightBody-form-action">
-      <div class="header-quote">Looking for the boldest taste that picks your body up every day? <br> How about a most elegant aroma that soothes the soul?<br>
-        Look no further.<br>Introducing Odin's Coffee. <strong>BOLD.</strong> <em>Elegant.</em><br><br>Sign up <em>now</em> to get started.
+      <div class="header-quote">Looking for the boldest taste that picks your body up every day? <br> 
+        How about a most elegant aroma that soothes the soul?<br>
+        Look no further.<br>Introducing Odin's Coffee. <strong>BOLD.</strong> <em>Elegant.</em><br><br>
+        Sign up <em>now</em> to get started.
       </div> 
       <div class="body-form">
         <h1>Create your Odin Coffee Account.</h1>
-        <form action="" method="get" class="bForm">
-          <p>
-            <label for="firstName">First Name</label>
-            <input type="text" id="firstName" name="firstName">
-          </p>
-          <p>
-            <label for="lastName">Last Name</label>
-            <input type="text" id="lastName" name="lastName">
-          </p>
-          <p>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email">
-          </p>
-          <p>
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone">
-          </p>
-          <p>
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password">
-          </p>
-          <p>
-            <label for="confirmPassword">Confirm Password</label>
-            <input type="password" id="confirmPassword" name="password">
-          </p>
+        <form action="#" method="get">
+          <div class="bForm">
+            <p>
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="firstName" required>
+            </p>
+            <p>
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" name="lastName" required>
+            </p>
+            <p>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" pattern="/^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/" required>
+            </p>
+            <p>
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" required>
+            </p>
+            <p>
+              <label for="password">Password</label>
+              <input data-pw-1 type="password" id="password" name="password" required>
+            </p>
+            <p>
+              <label for="confirmPassword">Confirm Password</label>
+              <input data-pw-2 type="password" id="confirmPassword" name="password" required>
+            </p>
+          </div>
+          <button type="submit" class="create-acc-btn">Create Account</button>
         </form>
       </div>
       <div class="footer-action">
-        <button type="submit" class="create-acc-btn">Create Account</button>
-        <p class="footer-caption">Already have an account? <a href="" class="footer-link">Log in</a></p>
+        <p class="footer-caption">Already have an account? <a href="https://www.google.com" class="footer-link" 
+          target="_blank" rel="noopener noreferrer">Log in</a>
+        </p>
       </div>
     </div>
   </div>
