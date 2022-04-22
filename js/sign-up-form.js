@@ -1,7 +1,20 @@
+
+const firstName = document.querySelector('[data-first-name]');
+const lastName = document.querySelector('[data-last-name]');
+const email = document.querySelector('[data-email]');
+const phone = document.querySelector('[data-phone]');
 const password1 = document.querySelector('[data-pw-1]');
 const password2 = document.querySelector('[data-pw-1]');
+const submitButton = document.querySelector('button[type=submit]')
 
-/* something like when active? or focus, call this fucntion, put some pattern checks on email, and phone in html
-   put some divs for the password errors to show too, and if you want extra, you can add the checkmarks to the fields */
+/* use .input-error and add as a class and toggle visibility on .req-check::after, and .pw-check::after */
 
-passwordMatch(password1, password2) => () 
+/* while(password1 !== null && password2 !== null) {
+   if (password1 === password2) {
+
+   }
+}
+
+passwordMatch(password1, password2) = () => {
+
+} */
