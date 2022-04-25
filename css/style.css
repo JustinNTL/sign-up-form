@@ -207,6 +207,7 @@ a:hover {
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, .15) 2px 2px 4px;
   margin-top: 8rem;
+  position: absolute;
 }
 
 .create-acc-btn:hover {
