@@ -32,19 +32,19 @@
         <h1>Create your Odin Coffee Account.</h1>
         <form data-form action="#" method="get">
           <div class="bForm">
-            <p class="req-check">
+            <p class="fn-check">
               <label for="firstName">First Name</label>
               <input data-first-name type="text" id="firstName" name="firstName" required aria-label="required">
             </p>
-            <p class="req-check">
+            <p class="ln-check">
               <label for="lastName">Last Name</label>
               <input data-last-name type="text" id="lastName" name="lastName" required aria-label="required">
             </p>
-            <p class="req-check">
+            <p class="el-check">
               <label for="email">Email</label>
               <input data-email type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required aria-label="required">
             </p>
-            <p class="req-check">
+            <p class="ph-check">
               <label for="phone">Phone Number</label>
               <input data-phone type="tel" id="phone" name="phone" required aria-label="required">
             </p>
@@ -52,12 +52,12 @@
               <label for="password">Password</label>
               <input data-pw-1 type="password" id="password" name="password" required aria-label="required">
             </p>
-            <p>
+            <p class="conf-pw-check">
               <label for="confirmPassword">Confirm Password</label>
               <input data-pw-2 type="password" id="confirmPassword" name="password" required aria-label="required">
             </p>
           </div>
-          <button type="submit" class="create-acc-btn">Create Account</button>
+          <button data-btn type="submit" class="create-acc-btn">Create Account</button>
         </form>
       </div>
       <div class="footer-action">
